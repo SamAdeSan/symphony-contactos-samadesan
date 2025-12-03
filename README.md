@@ -91,8 +91,8 @@ que ejecutar:
   composer require symfony/orm-pack
 ```
 Esto creará en nuestro caso:
-```dockerignore
-DATABASE_URL=mysql://root:sa@127.0.0.1:3306/juegos
+```
+DATABASE_URL=mysql://root:sa@127.0.0.1:3306/contactos
 ```
 Nuestra base de datos donde insertaremos las entidades de la web
 3. Crear base de datos
@@ -103,7 +103,7 @@ Para empezar a crear nuestra primera base de datos:
 ```
 Si no nos la quiere crear podemos crearla igualmente con:
 ```bash
-  mysql
+  mysql -u root -p
 ```
 4. Crear una entidad
 
